@@ -6,3 +6,8 @@
 	echo $this->Form->input('keterangan');
 	echo $this->Form->end('Simpan');
 ?>
+<?php if ($this->action == 'add'):?>
+	<h1>Buat Artikel</h1>
+<?php else: ?>
+	<h1>Buat Artikel</h1>
+<?php endif ?>

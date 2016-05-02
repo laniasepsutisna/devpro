@@ -23,10 +23,8 @@
 		}
 
 		function edit($id){
-			$this->Book->id = $id;
-
 			if (!empty($this->data)) {
-				if($this->Book->save($this->data)){
+				if (isset($this->data['Book'])) {
 					
 				}
 			}

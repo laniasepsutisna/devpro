@@ -22,7 +22,7 @@
 			<td><?php echo $buku['Book']['modified']?></td>	
 			<td><?php echo $this->Html->link(
 							'Ubah',array(
-										'action' => 'ubah', 
+										'action' => 'edit', 
 										 $buku['Book']['id']
 									)
 								); 
